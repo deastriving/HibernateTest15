@@ -8,7 +8,11 @@ public class Example {
     public static void main(String[] args) {
         User user = getUser(1);
         System.out.println(user.getLogin());
+        User oleg = getUser(2);
+        System.out.println(oleg.getLogin());
         HibernateUtil.getSessionFactory().close();
+
+       // HibernateUtil.getSessionFactory().close();
     }
 
     public static User getUser(Integer userId) {
