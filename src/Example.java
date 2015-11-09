@@ -21,7 +21,7 @@ public class Example {
         session.beginTransaction();
         User user = (User) session.get(User.class, userId);
         session.getTransaction().commit();
-        return user;// óïïó
+        return user;// óïïóaz
     }
 
 }
