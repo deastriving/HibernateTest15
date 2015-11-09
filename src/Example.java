@@ -12,7 +12,7 @@ public class Example {
         System.out.println(oleg.getLogin());
         HibernateUtil.getSessionFactory().close();
 
-       // HibernateUtil.getSessionFactory().close();
+       //rv HibernateUtil.getSessionFactory().close();
     }
 
     public static User getUser(Integer userId) {
